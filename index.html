@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Connect 4</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+  <div id="initial-welcome-page">
+    <div class="glass-card">
+      <div id="typewriter"></div>
+    </div>
+  </div>
+  
+  <div id="game-board"></div>
+  <div id="top-row"></div>
+  
+  
+  <div id="result-modal" class="modal">
+    <div class="modal-content">
+      <p id="winner"></p>
+      <button id="reset-button">Reset Game</button>
+    </div>
+  </div>
+
+  <div id="socials-wrapper" class="socials-wrapper">
+    <div id="social-container">
+      <span id="click-hint">Click the image to get contacts</span>
+      <button id="share-button">
+        <img
+          src="images/ponITech - shorten logo_without_n.svg"
+          alt="logo"
+          class="logo"
+        />
+      </button>
+    </div>
+
+    <ul class="socials-menu">
+      <li class="social">
+        <a
+          href="https://www.instagram.com/ponitech2024/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Instagram-Home"
+        >
+          <img src="images/ins_line.svg" alt="Instagram" />
+        </a>
+      </li>
+      <li class="social">
+        <a
+          href="https://x.com/NikolaP_itech"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="X-Home"
+        >
+          <img src="images/social_x_line.svg" alt="Twitter" />
+        </a>
+      </li>
+      <li class="social" title="GitHub">
+        <a
+          href="https://github.com/NikolaPopovic71"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="GitHub-Home"
+        >
+          <img src="images/github_line.svg" alt="GitHub" />
+        </a>
+      </li>
+      <li class="social">
+        <a
+          href="https://www.youtube.com/channel/UCxb4I-V_DoYuVTsV-hU1PoQ"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="YouTube-Home"
+        >
+          <img src="images/youtube_line.svg" alt="Youtube" />
+        </a>
+      </li>
+      <li class="social">
+        <a
+          href="mailto:nikolap.itech@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Email"
+        >
+          <img src="images/email_line.svg" alt="Email" />
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
